@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Mountains+of+Christmas:wght@400;700&display=swap');
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(https://bestanimations.com/media/christmas/329640861merry-christmas-pixel-art-greeting-gif-21.gif);
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Mountains of Christmas', sans-serif;
+    margin: 0;
+    color: aliceblue;
+}
+
+h1 {
+    font-weight: normal;
+    font-size: 4rem;
+    margin-top: 10rem;
+    color: aliceblue;
+}
+
+
+
+.countdown-container{
+    display: flex;
+}
+
+.big-text {
+    font-weight: bold;
+    font-size: 6rem;
+    line-height: 1;
+    margin: 0 2rem;
+    color: aliceblue;
+}
+
+.countdown-el {
+    text-align: center;
+}
+
+.countdown-el span{
+    font-size: 2rem;
+}
